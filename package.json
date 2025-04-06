@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "browser-install": "npx playwright install-deps && npx playwright install chromium",
     "test": "npx playwright test",
     "test-part1": "npx playwright test tests/tests-p1.spec.js",
